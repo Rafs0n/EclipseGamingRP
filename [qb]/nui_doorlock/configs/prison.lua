@@ -14,7 +14,7 @@ table.insert(Config.DoorList, {
 	fixText = true,
 	size = 2,
 	slides = true,
-	lockpick = true,
+	lockpick = false,
 })
 
 table.insert(Config.DoorList, {
@@ -27,7 +27,7 @@ table.insert(Config.DoorList, {
 	fixText = true,
 	size = 2,
 	slides = true,
-	lockpick = true,
+	lockpick = false,
 })
 
 -- main entry
