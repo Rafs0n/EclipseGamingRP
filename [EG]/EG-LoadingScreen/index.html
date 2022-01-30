@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <audio id="loading" src="music/music.mp3" autoplay="true" hidden="true" loop="true"></audio>
+<div class="img-center">
+    <img class="img-logo" src="img/logo.png">
+    <h1 class="server-name">Eclipse Gaming Roleplay</h1>
+</div>
+    <div id="box-rules">
+        <h1 class="title"><b>INFO</b></h1>
+        <hr>
+        <div class="box-scroll">
+        <h1 class="name">Welcome to Eclipse Gaming</h1>
+        <h1 class="name">Please Report people in our discord.</h1>
+        <h1 class="name">aswell as BUGS and GLITCHES!</h1>
+        <h1 class="name">If you have question's join discord</h1>
+        </div>
+      </div>
+      <div id="box-faq">
+        <h1 class="title"><b>Quick Start (FAQ)</b></h1>
+        <hr class="line">
+        <div class="box-scroll">
+        <h1 class="name">
+            Q: How to open the phone
+            <br>
+            A: Press <span class="color">[M]</span> to display the phone
+        </h1>
+        <h1 class="name">
+            Q: To see all emotes
+            <br>
+            A: Do <span class="color">[/emotemenu]</span> to display all animations
+        </h1>
+        <h1 class="name">
+            Q: how to open the inventory
+            <br>
+            A: Press <span class="color">[TAB]</span> to open the inventory
+        </h1>
+        <h1 class="name">
+            Q: How to lock your owned car.
+            <br>
+            A: Press <span class="color">[L]</span> to Lock your car
+        </h1>
+        <h1 class="name">
+            Q: Default key to talk
+            <br>
+            A: Press <span class="color">[N]</span> to speak in game
+        </h1>
+        <h1 class="name">
+            Q: How to use the seat belt
+            <br>
+            A: Press <span class="color">[B]</span> in a vehicle to put on the seat belt
+        </h1>
+        </div>
+      </div>
+      <div class="gradient-border" id="box-staff">
+        <h1 class="title"><b>Staff Members</b></h1>
+        <hr>
+        <div>
+            <div class="box-staff-founder">
+                <img src="img/staff1.png" class="img-staff">
+                <h1 class="name-staff">Brandon</h1>
+                <h1 class="grade-staff">FOUNDER/DEVELOPER</h1>
+            </div>
+            <div class="box-staff-developer">
+                <img src="img/staff2.png" class="img-staff">
+                <h1 class="name-staff">Jennings</h1>
+                <h1 class="grade-staff">FOUNDER</h1>
+            </div>
+            <div class="box-staff-developer">
+                <img src="img/staff3.png" class="img-staff">
+                <h1 class="name-staff">Bae Farted</h1>
+                <h1 class="grade-staff">FOUNDER</h1>
+            </div>
+            <div class="box-staff-administrator">
+                <img src="img/staff4.png" class="img-staff">
+                <h1 class="name-staff">Lunt</h1>
+                <h1 class="grade-staff">MODERATOR</h1>
+            </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="footer">
+        <h1 class="website">Website: <span class="color-footer">Coming Soon</span></h1>
+        <h1 class="discord">Discord: <span class="color-footer">discord.gg/vDehxHpbT8</span></h1>
+    </div>
+      
+<script>
+    var play = false;
+            var vid = document.getElementById("loading");
+            vid.volume = 0.1;
+            window.addEventListener('keyup', function(e)
+            {
+                if (e.which == 69){
+                    vid.volume = Math.min(vid.volume + 0.1,1);
+                } else if(e.which == 65){
+                    vid.volume = Math.max(vid.volume - 0.1,0);
+                };
+            });
+    
+            var audio = document.querySelector('audio');
+    
+            if (audio) {
+    
+            window.addEventListener('keydown', function (event) {
+    
+            var key = event.which || event.keyCode;
+    
+            if (key === 32) { // spacebar
+    
+            event.preventDefault();
+    
+            audio.paused ? audio.play() : audio.pause();
+          
+        }
+    
+      });
+    }
+    </script>
+    <script src='js/script.js'></script>
+</body>
+</html>
