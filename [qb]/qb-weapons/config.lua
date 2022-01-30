@@ -72,7 +72,7 @@ Config.DurabilityMultiplier = {
 	['weapon_bullpupshotgun'] 		= 0.15,
 	['weapon_musket'] 				= 0.15,
 	['weapon_heavyshotgun'] 		= 0.15,
-	['weapon_dbshotgun'] 			= 0.15,
+	['weapon_dbshotgun'] 			= 0.17,
 	['weapon_autoshotgun'] 			= 0.15,
 	['weapon_pumpshotgun_mk2'] 		= 0.15,
 	['weapon_combatshotgun'] 		= 0.15,
@@ -92,7 +92,7 @@ Config.DurabilityMultiplier = {
     ['weapon_heavyrifle']           = 0.15,
 
 	-- Light Machine Guns
-	['weapon_mg'] 				    = 0.15, 
+	['weapon_mg'] 				    = 0.15,
 	['weapon_combatmg'] 			= 0.15,
 	['weapon_gusenberg'] 			= 0.15,
 	['weapon_combatmg_mk2'] 		= 0.15,
