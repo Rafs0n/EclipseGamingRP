@@ -3,7 +3,7 @@
 CreateThread(function()
     while true do
         -- This is the Application ID (Replace this with you own)
-	SetDiscordAppId(937478143516749835v)
+	SetDiscordAppId(937478143516749835)
 
         -- Here you will have to put the image name for the "large" icon.
 	SetDiscordRichPresenceAsset('big')
