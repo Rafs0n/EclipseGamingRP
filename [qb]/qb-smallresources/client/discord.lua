@@ -3,18 +3,18 @@
 CreateThread(function()
     while true do
         -- This is the Application ID (Replace this with you own)
-	SetDiscordAppId(928102551231025242)
+	SetDiscordAppId(937478143516749835v)
 
         -- Here you will have to put the image name for the "large" icon.
-	SetDiscordRichPresenceAsset('eclipse_big')
+	SetDiscordRichPresenceAsset('big')
         
         -- (11-11-2018) New Natives:
 
         -- Here you can add hover text for the "large" icon.
-        SetDiscordRichPresenceAssetText('Playing Eclipse Gaming')
+        SetDiscordRichPresenceAssetText('Eclipse Gaming | discord.gg/vDehxHpbT8 ')
        
         -- Here you will have to put the image name for the "small" icon.
-        SetDiscordRichPresenceAssetSmall('eclipse_small')
+        SetDiscordRichPresenceAssetSmall('small')
 
         -- Here you can add hover text for the "small" icon.
         SetDiscordRichPresenceAssetSmallText('Come Join!')
